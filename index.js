@@ -174,9 +174,9 @@ function greeting(firstname,lastname){
  Use the constructor function named CuboidMaker to accept properties for length, width, and height which can be initialized as an object
 */
 function CuboidMaker(length, width, height){
-  this.length = length;
-  this.width = width;
-  this.height = height;
+  // this.length = length;
+  // this.width = width;
+  // this.height = height;
 }
 console.log(CuboidMaker());
 
@@ -216,8 +216,8 @@ console.log(CuboidMaker());
 
 // 🐴🐴🐴 Test your volume and surfaceArea methods by uncommenting the logs below: 🐴🐴🐴
 // ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️ ⬇️
-console.log(cuboid.volume());  100
-console.log(cuboid.surfaceArea());  130
+// console.log(cuboid.volume());  100
+// console.log(cuboid.surfaceArea());  130
  
 
 // 🦄🦄🦄 Topic 4: Classes 🦄🦄🦄 //
