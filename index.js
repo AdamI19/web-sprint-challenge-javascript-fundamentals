@@ -1,6 +1,7 @@
 //🚀🚀🚀  Topic #1 Closures 🚀🚀🚀//
 /* 🚀🚀🚀🤓 Task 1: 🤓🚀🚀🚀 
-Study the code below and explain in your own words why nested function can access the variable internal. */
+Study the code below and explain in your own words why nested function can access the variable internal
+ the function remembers its outer variables and can acess them.*/
 
 const external = "I'm outside the function";
 
@@ -28,10 +29,18 @@ myFunction();
     
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
-function summation(/*Your Code Here*/) {
-  /*Your Code Here*/
+function summation(number) {
+ 
+ let sum = 0;
+ for(let i =1; i <=number; i++)
+ {
+  sum +=i;
+   }
+ 
+ return sum;
+ }
 
-  }
+ console.log(summation([4]));
  
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
